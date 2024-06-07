@@ -5,7 +5,7 @@ from math import sqrt
 
 pygame.init()
 # pantalla
-ANCHO, ALTO = 800, 650
+ANCHO, ALTO = 650, 650
 superficie=pygame.display.set_mode( (ANCHO, ALTO) )
 pygame.display.set_caption('Fractal Sierpinski')
 # colores
